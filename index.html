@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pondok Pesantren Tahfidz Al-Qur'an Al Banna</title>
+  <meta name="description" content="Pondok Pesantren Tahfidz Al-Qur'an Al Banna — mencetak generasi Qur'ani yang unggul, berkarakter, dan inovatif." />
+  <meta property="og:title" content="Pondok Pesantren Tahfidz Al-Qur'an Al Banna" />
+  <meta property="og:description" content="Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#007A33',
+            gold: '#FFD700',
+            dark: '#0B1E14'
+          },
+          fontFamily: { inter: ['Inter','system-ui','sans-serif'] },
+          boxShadow: {
+            soft: '0 10px 30px rgba(0,0,0,0.08)'
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: 0, transform: 'translateY(12px)' },
+              '100%': { opacity: 1, transform: 'translateY(0)' }
+            }
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp .7s ease-out both'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+<body class="font-inter text-slate-800 bg-white">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+</html>
