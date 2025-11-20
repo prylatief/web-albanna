@@ -29,26 +29,29 @@ export const EXTRACURRICULARS = [
 ];
 
 export const KEGIATAN_IMAGES = [
-  { src: 'https://lh3.googleusercontent.com/d/1fnUqXSLYz4RwFIDamIqPvEEMTgUG25pf', alt: 'Kegiatan Santri 1' },
-  { src: 'https://lh3.googleusercontent.com/d/1BmfjXPjx546KbucW6NHgKGD3T6kgX5aL', alt: 'Kegiatan Santri 2' },
-  { src: 'https://lh3.googleusercontent.com/d/1g3sCYFoklYUnECgKqSlxvmjNEs3up8NZ', alt: 'Kegiatan Santri 3' },
-  { src: 'https://lh3.googleusercontent.com/d/1GhtjoGbMgJhNqyAsVoDE-FHTXyMkX0gg', alt: 'Kegiatan Santri 4' },
-  { src: 'https://lh3.googleusercontent.com/d/1QIx5NjDvxntD6gg6ekrWkyI2wHnR8B5x', alt: 'Kegiatan Santri 5' },
-  { src: 'https://lh3.googleusercontent.com/d/1eSY2dBt-HIzvrafoipU9nLRN5Jzjul27', alt: 'Kegiatan Santri 6' },
-  { src: 'https://lh3.googleusercontent.com/d/1n_jWJTagNAGjoSh4yLayj_mhXTGqFxGQ', alt: 'Kegiatan Santri 7' },
-  { src: 'https://lh3.googleusercontent.com/d/1aHkmBJJJL5lY0ItdQqhhm4SVMpkUq7eX', alt: 'Kegiatan Santri 8' },
+  { src: '/images/kegiatan-1.jpg', alt: 'Kegiatan Santri 1' },
+  { src: '/images/kegiatan-2.jpg', alt: 'Kegiatan Santri 2' },
+  { src: '/images/kegiatan-3.jpg', alt: 'Kegiatan Santri 3' },
+  { src: '/images/kegiatan-4.jpg', alt: 'Kegiatan Santri 4' },
+  { src: '/images/kegiatan-5.jpg', alt: 'Kegiatan Santri 5' },
+  { src: '/images/kegiatan-6.jpg', alt: 'Kegiatan Santri 6' },
+  { src: '/images/kegiatan-7.jpg', alt: 'Kegiatan Santri 7' },
+  { src: '/images/kegiatan-8.jpg', alt: 'Kegiatan Santri 8' },
+  { src: '/images/kegiatan-9.jpg', alt: 'Kegiatan Santri 9' },
+  { src: '/images/kegiatan-10.jpg', alt: 'Kegiatan Santri 10' },
+  { src: '/images/kegiatan-11.jpg', alt: 'Kegiatan Santri 11' },
 ];
 
 export const PONDOK_IMAGES = [
-  { src: 'https://lh3.googleusercontent.com/d/1pleasjHhRHabUDe7sJ5HvqnMdkyqFrlt', alt: 'Suasana Pondok 1' },
-  { src: 'https://lh3.googleusercontent.com/d/1gFIVdNMbeI3NAFHeNbxX18zKkdqppJF6', alt: 'Suasana Pondok 2' },
-  { src: 'https://lh3.googleusercontent.com/d/1Ern_3-3QFkf_R0nzMAkk1i3B6Li4uRmU', alt: 'Suasana Pondok 3' },
+  { src: '/images/pondok-1.jpg', alt: 'Suasana Pondok 1' },
+  { src: '/images/pondok-2.jpg', alt: 'Suasana Pondok 2' },
+  { src: '/images/pondok-3.jpg', alt: 'Suasana Pondok 3' },
 ];
 
 export const GURU_IMAGES = [
-  { src: 'https://lh3.googleusercontent.com/d/1lu5MQdazDbDneNoV0OyUy8NBjTlBYYyG', alt: 'Tenaga Pengajar 1' },
-  { src: 'https://lh3.googleusercontent.com/d/1k6OPUUZhT1VBocoBKMoCYo_OTrBgK2bt', alt: 'Tenaga Pengajar 2' },
-  { src: 'https://lh3.googleusercontent.com/d/17dQ9iIRQs-kJDVxvdE9tX8Lo2Bar6qM3', alt: 'Tenaga Pengajar 3' },
+  { src: '/images/guru-1.jpg', alt: 'Tenaga Pengajar 1' },
+  { src: '/images/guru-2.jpg', alt: 'Tenaga Pengajar 2' },
+  { src: '/images/guru-3.jpg', alt: 'Tenaga Pengajar 3' },
 ];
 
 export const TESTIMONIALS = [
