@@ -28,15 +28,27 @@ export const EXTRACURRICULARS = [
   { emoji: '🏸', name: 'Badminton' },
 ];
 
-export const GALLERY_IMAGES = [
-  { src: 'https://images.unsplash.com/photo-1544016864-8f18f06b97e9?q=80&w=800&auto=format&fit=crop', alt: 'Halaqah Al-Qur’an' },
-  { src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop', alt: 'Tasmi’ & Apel Pagi' },
-  { src: 'https://images.unsplash.com/photo-1508606572321-901ea443707f?q=80&w=800&auto=format&fit=crop', alt: 'Lomba Futsal' },
-  { src: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=800&auto=format&fit=crop', alt: 'Pelantikan' },
-  { src: 'https://images.unsplash.com/photo-1520975922321-4ae19f4ca907?q=80&w=800&auto=format&fit=crop', alt: 'Tadabbur Alam' },
-  { src: 'https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=800&auto=format&fit=crop', alt: 'Kegiatan Outdoor' },
-  { src: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop', alt: 'Belajar Bersama' },
-  { src: 'https://images.unsplash.com/photo-1496302662116-85c3c36e0795?q=80&w=800&auto=format&fit=crop', alt: 'Doa Bersama' },
+export const KEGIATAN_IMAGES = [
+  { src: 'https://drive.google.com/uc?export=view&id=1fnUqXSLYz4RwFIDamIqPvEEMTgUG25pf', alt: 'Kegiatan Santri 1' },
+  { src: 'https://drive.google.com/uc?export=view&id=1BmfjXPjx546KbucW6NHgKGD3T6kgX5aL', alt: 'Kegiatan Santri 2' },
+  { src: 'https://drive.google.com/uc?export=view&id=1g3sCYFoklYUnECgKqSlxvmjNEs3up8NZ', alt: 'Kegiatan Santri 3' },
+  { src: 'https://drive.google.com/uc?export=view&id=1GhtjoGbMgJhNqyAsVoDE-FHTXyMkX0gg', alt: 'Kegiatan Santri 4' },
+  { src: 'https://drive.google.com/uc?export=view&id=1QIx5NjDvxntD6gg6ekrWkyI2wHnR8B5x', alt: 'Kegiatan Santri 5' },
+  { src: 'https://drive.google.com/uc?export=view&id=1eSY2dBt-HIzvrafoipU9nLRN5Jzjul27', alt: 'Kegiatan Santri 6' },
+  { src: 'https://drive.google.com/uc?export=view&id=1n_jWJTagNAGjoSh4yLayj_mhXTGqFxGQ', alt: 'Kegiatan Santri 7' },
+  { src: 'https://drive.google.com/uc?export=view&id=1aHkmBJJJL5lY0ItdQqhhm4SVMpkUq7eX', alt: 'Kegiatan Santri 8' },
+];
+
+export const PONDOK_IMAGES = [
+  { src: 'https://drive.google.com/uc?export=view&id=1pleasjHhRHabUDe7sJ5HvqnMdkyqFrlt', alt: 'Suasana Pondok 1' },
+  { src: 'https://drive.google.com/uc?export=view&id=1gFIVdNMbeI3NAFHeNbxX18zKkdqppJF6', alt: 'Suasana Pondok 2' },
+  { src: 'https://drive.google.com/uc?export=view&id=1Ern_3-3QFkf_R0nzMAkk1i3B6Li4uRmU', alt: 'Suasana Pondok 3' },
+];
+
+export const GURU_IMAGES = [
+  { src: 'https://drive.google.com/uc?export=view&id=1lu5MQdazDbDneNoV0OyUy8NBjTlBYYyG', alt: 'Tenaga Pengajar 1' },
+  { src: 'https://drive.google.com/uc?export=view&id=1k6OPUUZhT1VBocoBKMoCYo_OTrBgK2bt', alt: 'Tenaga Pengajar 2' },
+  { src: 'https://drive.google.com/uc?export=view&id=17dQ9iIRQs-kJDVxvdE9tX8Lo2Bar6qM3', alt: 'Tenaga Pengajar 3' },
 ];
 
 export const TESTIMONIALS = [
