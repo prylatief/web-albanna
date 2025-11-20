@@ -24,6 +24,12 @@ const EmailIcon: React.FC = () => (
   </svg>
 );
 
+const FacebookIcon: React.FC = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+  </svg>
+);
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-emerald-900 text-white">
@@ -53,6 +59,10 @@ const Footer: React.FC = () => {
                 <strong className="text-white">Instagram:</strong><br />
                 <a href={CONTACT.instagramLink} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">@{CONTACT.instagram}</a>
               </p>
+              <p>
+                <strong className="text-white">Facebook:</strong><br />
+                <a href={CONTACT.facebookLink} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">{CONTACT.facebook}</a>
+              </p>
             </div>
           </div>
 
@@ -65,6 +75,9 @@ const Footer: React.FC = () => {
             <div className="mt-4 flex gap-4">
               <a href={CONTACT.instagramLink} aria-label="Instagram" className="hover:text-yellow-400 transition-colors" target="_blank" rel="noopener noreferrer">
                 <InstagramIcon />
+              </a>
+              <a href={CONTACT.facebookLink} aria-label="Facebook" className="hover:text-yellow-400 transition-colors" target="_blank" rel="noopener noreferrer">
+                <FacebookIcon />
               </a>
               <a href={CONTACT.whatsappLink} aria-label="WhatsApp" className="hover:text-yellow-400 transition-colors" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon />
