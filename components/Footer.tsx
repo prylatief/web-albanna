@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { CONTACT } from '../constants';
 
 const InstagramIcon: React.FC = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -25,24 +26,61 @@ const EmailIcon: React.FC = () => (
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white border-t">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <footer className="bg-emerald-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
+          {/* About Section */}
           <div>
-            <p className="font-semibold">Pondok Pesantren Tahfidz Al-Qur’an Al Banna</p>
-            <p className="text-sm text-slate-600">Hak cipta © 2025 Albanna Boarding School</p>
+            <h3 className="font-bold text-xl mb-4">Pondok Pesantren Tahfidz Al-Qur'an Albanna</h3>
+            <p className="text-emerald-200 text-sm leading-relaxed">
+              Mewujudkan pesantren unggulan berbasis pelayanan paripurna untuk membentuk generasi Islami berakhlak mulia, kreatif, cerdas, dan berdaya saing global.
+            </p>
           </div>
-          <div className="flex items-center gap-4 text-slate-600">
-            <a href="https://instagram.com/" aria-label="Instagram" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-              <InstagramIcon />
-            </a>
-            <a href="https://wa.me/6281285256488" aria-label="WhatsApp" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-              <WhatsAppIcon />
-            </a>
-            <a href="mailto:pondoktafhidzalbanna@gmail.com" aria-label="Email" className="hover:text-primary transition-colors">
-              <EmailIcon />
-            </a>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="font-bold text-lg mb-4">Kontak & Lokasi</h3>
+            <div className="space-y-2 text-sm text-emerald-200">
+              <p>
+                <strong className="text-white">WhatsApp:</strong><br />
+                <a href={CONTACT.whatsappLink} className="hover:text-yellow-400 transition-colors">{CONTACT.whatsapp}</a>
+              </p>
+              <p>
+                <strong className="text-white">Email:</strong><br />
+                <a href={`mailto:${CONTACT.email}`} className="hover:text-yellow-400 transition-colors">{CONTACT.email}</a>
+              </p>
+              <p>
+                <strong className="text-white">Instagram:</strong><br />
+                <a href={CONTACT.instagramLink} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">@{CONTACT.instagram}</a>
+              </p>
+            </div>
           </div>
+
+          {/* Location */}
+          <div>
+            <h3 className="font-bold text-lg mb-4">Alamat</h3>
+            <p className="text-emerald-200 text-sm leading-relaxed">
+              {CONTACT.location}
+            </p>
+            <div className="mt-4 flex gap-4">
+              <a href={CONTACT.instagramLink} aria-label="Instagram" className="hover:text-yellow-400 transition-colors" target="_blank" rel="noopener noreferrer">
+                <InstagramIcon />
+              </a>
+              <a href={CONTACT.whatsappLink} aria-label="WhatsApp" className="hover:text-yellow-400 transition-colors" target="_blank" rel="noopener noreferrer">
+                <WhatsAppIcon />
+              </a>
+              <a href={`mailto:${CONTACT.email}`} aria-label="Email" className="hover:text-yellow-400 transition-colors">
+                <EmailIcon />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="border-t border-emerald-800 pt-6 text-center">
+          <p className="text-sm text-emerald-200">
+            Hak cipta © {new Date().getFullYear()} Pondok Pesantren Tahfidz Al-Qur'an Albanna. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
