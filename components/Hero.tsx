@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Suasana santri belajar" className="w-full h-full object-cover" />
+        <img src="/images/pondok-1.jpg" alt="Suasana Pondok Pesantren Al-Banna" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-dark/70 via-dark/60 to-white"></div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
