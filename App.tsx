@@ -24,9 +24,11 @@ const App: React.FC = () => {
         <About />
         <Programs />
         <Extracurriculars />
-        <GalleryKegiatan />
-        <GalleryPondok />
-        <GalleryGuru />
+        <section id="galeri">
+          <GalleryKegiatan />
+          <GalleryPondok />
+          <GalleryGuru />
+        </section>
         <Testimonials />
         <Registration />
         <CtaBand />
