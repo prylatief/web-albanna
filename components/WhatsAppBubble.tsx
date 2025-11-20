@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsAppBubble: React.FC = () => {
-  const phoneNumber = '081285256488';
+  const phoneNumber = '6281285256488';
   const message = 'Assalamualaikum Boleh Saya Mendapatkan Info Lebih Lanjut Tentang Pendaftaran Pondok Pesantren Tahfidz Alquran Albanna\'';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
