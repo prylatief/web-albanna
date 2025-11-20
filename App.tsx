@@ -5,7 +5,9 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Programs from './components/Programs';
 import Extracurriculars from './components/Extracurriculars';
-import Gallery from './components/Gallery';
+import GalleryKegiatan from './components/GalleryKegiatan';
+import GalleryPondok from './components/GalleryPondok';
+import GalleryGuru from './components/GalleryGuru';
 import Testimonials from './components/Testimonials';
 import Registration from './components/Registration';
 import CtaBand from './components/CtaBand';
@@ -22,7 +24,9 @@ const App: React.FC = () => {
         <About />
         <Programs />
         <Extracurriculars />
-        <Gallery />
+        <GalleryKegiatan />
+        <GalleryPondok />
+        <GalleryGuru />
         <Testimonials />
         <Registration />
         <CtaBand />
