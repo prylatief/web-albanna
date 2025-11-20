@@ -193,10 +193,15 @@ export const CONTACT = {
   email: 'pondoktahfidzalbanna@gmail.com',
   instagram: 'ppta_albanna',
   instagramLink: 'https://instagram.com/ppta_albanna',
+  facebook: 'Pondok Pesantren Tahfidz Alquran Albanna',
+  facebookLink: 'https://www.facebook.com/p/Pondok-pesantren-tahfidz-Alquran-Albanna-100076075550684/',
   location: 'Babakan, Kp. Cisewu, Kel. Sukajaya, Kec. Jonggol, Kab. Bogor',
+  visitNote: 'Bapak/Ibu yang ingin berkunjung langsung ke pondok mohon konfirmasi terlebih dahulu kepada +6281285256488 (Humas)',
   bankAccount: {
     bank: 'BRI',
-    number: '1810 000 311 262',
-    name: 'Pondok Pesantren Tahfidz Al-Quran Albanna'
+    number: '141801000731562',
+    name: 'Pondok Pesantren Tahfidz Al-Quran Albanna',
+    confirmationPhone: '081285256488',
+    confirmationNote: 'Konfirmasi bukti transfer ke nomor WhatsApp di atas'
   }
 };
