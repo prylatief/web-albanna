@@ -18,6 +18,7 @@ import CtaBand from './components/CtaBand';
 import Donation from './components/Donation';
 import Alumni from './components/Alumni';
 import Footer from './components/Footer';
+import WhatsAppBubble from './components/WhatsAppBubble';
 
 const App: React.FC = () => {
   return (
@@ -44,6 +45,7 @@ const App: React.FC = () => {
         <Alumni />
       </main>
       <Footer />
+      <WhatsAppBubble />
     </>
   );
 };
