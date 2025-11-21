@@ -16,7 +16,7 @@ const WhyAlbanna: React.FC = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3">
-            KENAPA SAYA HARUS PILIH <span className="text-[#F9D302]">ALBANNA</span>???
+            KENAPA SAYA HARUS PILIH PESANTREN <span className="text-[#F9D302]">ALBANNA</span>???
           </h2>
           <div className="h-1 w-24 bg-[#F9D302] mx-auto"></div>
         </div>
