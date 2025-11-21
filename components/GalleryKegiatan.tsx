@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 import { KEGIATAN_IMAGES } from '../constants';
 import ImageModal from './ImageModal';
 
-const GalleryKegiatan: React.FC = () => {
+interface GalleryKegiatanProps {
+  compact?: boolean;
+}
+
+const GalleryKegiatan: React.FC<GalleryKegiatanProps> = ({ compact = false }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   const handleImageClick = (index: number) => {
@@ -27,6 +31,38 @@ const GalleryKegiatan: React.FC = () => {
       );
     }
   };
+
+  // Compact mode: tampilkan hanya 6 gambar pertama dalam grid 3x2
+  const imagesToShow = compact ? KEGIATAN_IMAGES.slice(0, 6) : KEGIATAN_IMAGES;
+
+  if (compact) {
+    return (
+      <>
+        <div className="grid grid-cols-3 gap-2">
+          {imagesToShow.map((image, index) => (
+            <img
+              key={`${image.src}-${index}`}
+              loading="lazy"
+              className="h-24 w-full object-cover rounded-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
+              src={image.src}
+              alt={image.alt}
+              onClick={() => handleImageClick(index)}
+            />
+          ))}
+        </div>
+        {selectedImageIndex !== null && (
+          <ImageModal
+            isOpen={selectedImageIndex !== null}
+            imageSrc={KEGIATAN_IMAGES[selectedImageIndex].src}
+            imageAlt={KEGIATAN_IMAGES[selectedImageIndex].alt}
+            onClose={handleCloseModal}
+            onNext={handleNextImage}
+            onPrev={handlePrevImage}
+          />
+        )}
+      </>
+    );
+  }
 
   return (
     <section id="galeri-kegiatan" className="py-16 bg-slate-50">
