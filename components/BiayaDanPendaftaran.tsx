@@ -107,6 +107,39 @@ const BiayaDanPendaftaran: React.FC = () => {
                 </ul>
               </div>
 
+              {/* Download Formulir Section */}
+              <div className="mb-8">
+                <div className="bg-gradient-to-br from-[#066836] to-[#044824] rounded-2xl p-6 md:p-8 text-center shadow-xl border-4 border-[#F9D302]">
+                  <div className="mb-4">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-[#F9D302] rounded-full mb-3">
+                      <svg className="w-8 h-8 text-[#066836]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                      </svg>
+                    </div>
+                    <h3 className="text-2xl font-extrabold text-[#F9D302] mb-2">
+                      📥 Download Formulir Pendaftaran
+                    </h3>
+                    <p className="text-white/90 text-sm md:text-base mb-6">
+                      Siap untuk mendaftar? Download formulir pendaftaran di bawah ini, isi dengan lengkap, lalu ikuti langkah pendaftaran selanjutnya.
+                    </p>
+                  </div>
+                  <a
+                    href="https://drive.google.com/file/d/14JK6Y_t5PjCg2DZ5-f5gAp4PVEI_ACnD/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-3 bg-[#F9D302] hover:bg-[#e0c002] text-[#066836] font-extrabold px-8 py-4 rounded-xl text-lg shadow-2xl transition-all transform hover:scale-105"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Download Formulir Sekarang
+                  </a>
+                  <p className="text-white/70 text-xs mt-4">
+                    File akan terbuka di Google Drive
+                  </p>
+                </div>
+              </div>
+
               {/* Steps */}
               <div>
                 <h3 className="text-xl font-bold text-[#066836] mb-4 flex items-center gap-2">
