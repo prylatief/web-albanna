@@ -70,7 +70,7 @@ const GalleryKegiatan: React.FC<GalleryKegiatanProps> = ({ compact = false }) =>
   const displayedImages = showAll ? KEGIATAN_IMAGES : KEGIATAN_IMAGES.slice(0, initialCount);
 
   return (
-    <section id="galeri-kegiatan" className="py-16 bg-[#066836]">
+    <section id="galeri" className="py-16 bg-[#066836]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <div className="text-center mb-12">

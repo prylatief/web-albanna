@@ -206,7 +206,7 @@ export const TESTIMONIALS = [
 // CONTACT
 export const CONTACT = {
   whatsapp: '0812-8525-6488',
-  whatsappLink: 'https://wa.me/628128525648',
+  whatsappLink: 'https://api.whatsapp.com/send/?phone=6281285256488&text=Assalamualaikum+Boleh+Saya+Mendapatkan+Info+Lebih+Lanjut+Tentang+Pendaftaran+Pondok+Pesantren+Tahfidz+Alquran+Albanna%27&type=phone_number&app_absent=0',
   email: 'pondoktahfidzalbanna@gmail.com',
   instagram: 'ppta_albanna',
   instagramLink: 'https://instagram.com/ppta_albanna',
