@@ -6,6 +6,7 @@ import VisiMisi from './components/VisiMisi';
 import WhyAlbanna from './components/WhyAlbanna';
 import CtaBand from './components/CtaBand';
 import Programs from './components/Programs';
+import Facilities from './components/Facilities';
 import GalleryKegiatan from './components/GalleryKegiatan';
 import Extracurriculars from './components/Extracurriculars';
 import BiayaDanPendaftaran from './components/BiayaDanPendaftaran';
@@ -54,7 +55,10 @@ const App: React.FC = () => {
         {/* 6. Program Utama & Keunggulan */}
         <Programs />
 
-        {/* 7. Galeri Kegiatan - Lazy loading dengan show more */}
+        {/* 7. Fasilitas */}
+        <Facilities />
+
+        {/* 8. Galeri Kegiatan - Lazy loading dengan show more */}
         <GalleryKegiatan />
 
         {/* 8. Ekstrakurikuler */}

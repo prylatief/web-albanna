@@ -3,7 +3,7 @@ import { WHY_ALBANNA } from '../constants';
 
 const WhyAlbanna: React.FC = () => {
   return (
-    <section className="py-16 md:py-20 bg-[#066836] text-white relative overflow-hidden">
+    <section id="tentang" className="py-16 md:py-20 bg-[#066836] text-white relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-10 left-10 opacity-10 hidden lg:block">
         <div className="text-9xl text-[#F9D302]">✨</div>
