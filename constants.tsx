@@ -14,20 +14,31 @@ export const NAV_LINKS = [
   { href: '#pendaftaran', label: 'Pendaftaran' },
 ];
 
+// ACADEMIC YEAR
+export const ACADEMIC_YEAR = '2026 - 2027';
+export const REGISTRATION_TITLE = 'Pendaftaran Santri Baru';
+
 // VISION & MISSION
 export const VISION = {
-  quote: '"Yang terbaik di antara kalian adalah yang belajar dan mengajarkan Al-Qur\'an."',
-  statement: 'Mewujudkan pesantren unggulan berbasis pelayanan paripurna untuk membentuk generasi Islami berakhlak mulia, kreatif, cerdas, dan berdaya saing global.'
+  title: 'VISI',
+  arabic: 'خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ',
+  translation: '"Sebaik-baik kalian adalah yang mempelajari Al-Qur\'an dan mengajarkannya."',
+  statement: 'Mewujudkan pesantren unggulan berbasis pelayanan paripurna untuk membentuk generasi Islami berakhlak mulia, kreatif, cerdas, dan berdaya saing global.',
+  icon: '📖'
 };
 
-export const MISSION = [
-  'Memahami, mengamalkan, dan menghafal Al-Qur\'an',
-  'Menyebarluaskan nilai-nilai Qur\'ani',
-  'Menyelenggarakan pendidikan berbasis sistem pelayanan prima',
-  'Pendidikan inovatif berbasis karakter',
-  'Membentuk lulusan siap lanjut ke jenjang lebih tinggi atau dunia kerja',
-  'Menanamkan nilai kepedulian, keteladanan, dan kebijaksanaan'
-];
+export const MISSION = {
+  title: 'MISI',
+  icon: '📋',
+  items: [
+    'Memahami, mengamalkan, dan menghafal Al-Qur\'an',
+    'Menyebarluaskan nilai-nilai Qur\'ani',
+    'Menyelenggarakan pendidikan berbasis sistem pelayanan prima',
+    'Pendidikan inovatif berbasis karakter',
+    'Membentuk lulusan siap lanjut ke jenjang lebih tinggi atau dunia kerja',
+    'Menanamkan nilai kepedulian, keteladanan, dan kebijaksanaan'
+  ]
+};
 
 // PROGRAMS
 export const PROGRAMS = [
@@ -108,19 +119,25 @@ export const REGISTRATION_WAVES = [
     wave: 'Gelombang I',
     period: '1 Nov - 31 Des 2025',
     discount: 'Diskon 25% infaq pembangunan',
-    price: 'Rp1.500.000'
+    originalPrice: 'Rp2.000.000',
+    discountedPrice: 'Rp1.500.000',
+    badge: 'HEMAT 500RB'
   },
   {
     wave: 'Gelombang II',
     period: '1 Jan - 28 Feb 2026',
     discount: 'Diskon 15%',
-    price: 'Rp1.700.000'
+    originalPrice: 'Rp2.000.000',
+    discountedPrice: 'Rp1.700.000',
+    badge: 'HEMAT 300RB'
   },
   {
     wave: 'Gelombang III',
     period: '1 Mar - 30 Jun 2026',
     discount: 'Diskon khusus kebijaksanaan',
-    price: 'Hubungi Kami'
+    originalPrice: '',
+    discountedPrice: 'Hubungi Kami',
+    badge: 'PROMO KHUSUS'
   },
 ];
 
