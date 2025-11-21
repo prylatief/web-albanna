@@ -17,7 +17,7 @@ const About: React.FC = () => {
 
           {/* About */}
           <p className="text-center text-slate-600 mb-10 text-lg">
-            Pondok Pesantren Tahfidz Al-Qur'an Al Banna berkomitmen melahirkan generasi Qur'ani yang unggul dalam hafalan, berakhlak mulia, dan siap berkarya di masyarakat.
+            Pondok Pesantren Tahfidz Al-Qur'an Al Banna berkomitmen melahirkan generasi Qur'ani yang unggul dalam hafalan, berakhlak mulia, dan siap berkarya di masyarakat sekitar.
           </p>
 
           {/* Vision */}
