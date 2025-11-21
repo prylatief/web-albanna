@@ -2,7 +2,27 @@
 import React from 'react';
 import { EXTRACURRICULARS } from '../constants';
 
-const Extracurriculars: React.FC = () => {
+interface ExtracurricularsProps {
+  compact?: boolean;
+}
+
+const Extracurriculars: React.FC<ExtracurricularsProps> = ({ compact = false }) => {
+  if (compact) {
+    return (
+      <div className="grid grid-cols-2 gap-2">
+        {EXTRACURRICULARS.map((item) => (
+          <div
+            key={item.name}
+            className="flex items-center gap-2 p-2 rounded-lg bg-white/80 text-xs sm:text-sm font-medium text-albanna-green"
+          >
+            <span className="text-base">{item.emoji}</span>
+            <span>{item.name}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <section id="ekskul" className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

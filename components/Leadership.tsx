@@ -1,7 +1,27 @@
 import React from 'react';
 import { LEADERSHIP } from '../constants';
 
-const Leadership: React.FC = () => {
+interface LeadershipProps {
+  compact?: boolean;
+}
+
+const Leadership: React.FC<LeadershipProps> = ({ compact = false }) => {
+  if (compact) {
+    return (
+      <div className="space-y-2">
+        {LEADERSHIP.map((leader, index) => (
+          <div key={index} className="flex items-start gap-2">
+            <span className="text-albanna-green font-bold text-xs">•</span>
+            <div className="flex-1">
+              <p className="text-xs sm:text-sm font-bold text-albanna-green">{leader.position}:</p>
+              <p className="text-xs sm:text-sm text-albanna-green/90">{leader.name}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">

@@ -1,7 +1,27 @@
 import React from 'react';
 import { TEACHERS } from '../constants';
 
-const Teachers: React.FC = () => {
+interface TeachersProps {
+  compact?: boolean;
+}
+
+const Teachers: React.FC<TeachersProps> = ({ compact = false }) => {
+  if (compact) {
+    return (
+      <div className="space-y-2">
+        {TEACHERS.map((teacher, index) => (
+          <div key={index} className="flex items-start gap-2">
+            <span className="text-albanna-green font-bold text-xs">•</span>
+            <div className="flex-1">
+              <p className="text-xs sm:text-sm font-semibold text-albanna-green">{teacher.name}</p>
+              <p className="text-xs text-albanna-green/80">{teacher.credential}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <section className="py-20 bg-emerald-50">
       <div className="container mx-auto px-6">
