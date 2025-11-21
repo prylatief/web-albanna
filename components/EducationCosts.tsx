@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BIAYA_POKOK, SERAGAM_PUTRA, SERAGAM_PUTRI, KITAB_BUKU, TOTAL_BIAYA } from '../constants';
+import { BIAYA_POKOK, SERAGAM_PUTRA, SERAGAM_PUTRI, KITAB_BUKU, TOTAL_BIAYA, ACADEMIC_YEAR } from '../constants';
 
 /**
  * EducationCosts Component
@@ -42,7 +42,7 @@ const EducationCosts: React.FC = () => {
           Daftar Biaya Pokok Santri Baru
         </h3>
         <p className="text-sm text-albanna-green/70">
-          Tahun Ajaran 2025-2026
+          Tahun Ajaran {ACADEMIC_YEAR}
         </p>
       </div>
 
