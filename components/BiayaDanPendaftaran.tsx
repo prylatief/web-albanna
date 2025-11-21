@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { EDUCATION_COSTS, COST_NOTE, BONUSES, REGISTRATION_REQUIREMENTS, CONTACT } from '../constants';
+import { BONUSES, REGISTRATION_REQUIREMENTS, CONTACT } from '../constants';
+import EducationCosts from './EducationCosts';
 
 /**
  * BiayaDanPendaftaran Component
@@ -52,41 +53,8 @@ const BiayaDanPendaftaran: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           {activeTab === 'biaya' && (
             <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 animate-fade-in-up">
-              {/* Biaya Table */}
-              <div className="space-y-3 mb-6">
-                {EDUCATION_COSTS.map((cost, index) => (
-                  <div
-                    key={index}
-                    className="flex justify-between items-center p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors"
-                  >
-                    <span className="font-semibold text-[#066836]">{cost.item}</span>
-                    <span className="font-bold text-lg text-[#066836]">{cost.amount}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Note */}
-              <div className="bg-[#F9D302]/20 border-l-4 border-[#F9D302] p-4 rounded-r-lg mb-6">
-                <p className="text-sm text-[#066836]">
-                  <span className="font-bold">Catatan:</span> {COST_NOTE}
-                </p>
-              </div>
-
-              {/* Bonuses/Scholarships */}
-              <div>
-                <h3 className="text-xl font-bold text-[#066836] mb-4">🎁 Bonus & Beasiswa</h3>
-                <div className="grid md:grid-cols-2 gap-4">
-                  {BONUSES.map((bonus, index) => (
-                    <div
-                      key={index}
-                      className="bg-gradient-to-br from-[#066836] to-[#044824] text-white p-5 rounded-xl"
-                    >
-                      <h4 className="font-bold text-[#F9D302] mb-2">{bonus.title}</h4>
-                      <p className="text-sm text-white/90">{bonus.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              {/* Detailed Education Costs with Gender Selection */}
+              <EducationCosts />
             </div>
           )}
 
