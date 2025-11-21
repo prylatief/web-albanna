@@ -141,7 +141,56 @@ export const REGISTRATION_WAVES = [
   },
 ];
 
-// EDUCATION COSTS
+// EDUCATION COSTS - DETAILED
+export const BIAYA_POKOK = [
+  { item: 'Infaq Pembangunan', amount: 'Rp2.000.000' },
+  { item: 'Pengembangan Pendidikan', amount: 'Rp500.000' },
+  { item: 'Lemari dan Kasur', amount: 'Rp1.000.000' },
+  { item: 'SPP Bulan Pertama', amount: 'Rp850.000' },
+  { item: 'Dana Kesehatan', amount: 'Rp150.000' },
+  { item: 'Ekskul Wajib Tahunan', amount: 'Rp250.000' },
+];
+
+export const SERAGAM_PUTRA = [
+  { item: 'Set. Kain Biru Khas 5 mtr', amount: 'Rp160.000' },
+  { item: 'Kain Drill Formal 2 mtr', amount: 'Rp70.000' },
+  { item: 'Peci Putih', amount: 'Rp40.000' },
+  { item: 'Peci Tahfidz', amount: 'Rp40.000' },
+  { item: 'Set. Olahraga', amount: 'Rp160.000' },
+  { item: 'Set. Beladiri', amount: 'Rp130.000' },
+  { item: 'Atribut Beladiri', amount: 'Rp50.000' },
+];
+
+export const SERAGAM_PUTRI = [
+  { item: 'Kain Biru Khas 4 mtr', amount: 'Rp120.000' },
+  { item: 'Kain Putih Formal 3 mtr', amount: 'Rp75.000' },
+  { item: 'Kain Drill Formal 2 mtr', amount: 'Rp70.000' },
+  { item: 'Kain Atasan Pramuka 3,5 mtr', amount: 'Rp85.000' },
+  { item: 'Kerudung Putih', amount: 'Rp40.000' },
+  { item: 'Kerudung Broken white', amount: 'Rp40.000' },
+  { item: 'Kerudung Pramuka', amount: 'Rp40.000' },
+  { item: 'Set. Olahraga & Jilbab', amount: 'Rp230.000' },
+];
+
+export const KITAB_BUKU = [
+  { item: 'Bahasa Arab', amount: 'Rp45.000' },
+  { item: 'Al-Qur\'an & Hadits', amount: 'Rp35.000' },
+  { item: 'Ilmu Tajwid', amount: 'Rp15.000' },
+  { item: 'Aqidah Akhlak', amount: 'Rp25.000' },
+  { item: 'Fiqih', amount: 'Rp30.000' },
+  { item: 'Sejarah Islam', amount: 'Rp35.000' },
+  { item: 'Bahasa Indonesia', amount: 'Rp20.000' },
+  { item: 'Matematika', amount: 'Rp30.000' },
+  { item: 'IPA', amount: 'Rp40.000' },
+  { item: 'Bahasa Inggris', amount: 'Rp25.000' },
+];
+
+export const TOTAL_BIAYA = {
+  putra: 'Rp5.700.000',
+  putri: 'Rp5.750.000',
+};
+
+// LEGACY EDUCATION COSTS (for backward compatibility if needed)
 export const EDUCATION_COSTS = [
   { item: 'Pendaftaran', amount: 'Rp200.000' },
   { item: 'Uang Pangkal', amount: 'Rp3.500.000' },
