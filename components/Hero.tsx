@@ -9,9 +9,9 @@ const Hero: React.FC = () => {
         <img
           src="/images/pondok-1.jpg"
           alt="Suasana Pondok Pesantren Al-Banna"
-          className="w-full h-full object-cover opacity-50"
+          className="w-full h-full object-cover opacity-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#066836]/70 via-[#066836]/60 to-[#066836]/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#066836]/40 via-[#066836]/35 to-[#066836]/30"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 relative">
