@@ -1,5 +1,5 @@
 import React from 'react';
-import { WHY_ALBANNA } from '../constants';
+import { WHY_ALBANNA, CIRI_KHAS_ALBANNA } from '../constants';
 
 const WhyAlbanna: React.FC = () => {
   return (
@@ -19,6 +19,28 @@ const WhyAlbanna: React.FC = () => {
             KENAPA SAYA HARUS PILIH PESANTREN <span className="text-[#F9D302]">ALBANNA</span>???
           </h2>
           <div className="h-1 w-24 bg-[#F9D302] mx-auto"></div>
+        </div>
+
+        {/* Ciri Khas & Kelebihan Section */}
+        <div className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="text-xl md:text-2xl font-bold text-[#F9D302] mb-2">
+              ✨ Ciri Khas & Kelebihan Pesantren Albanna ✨
+            </h3>
+            <p className="text-white/80 text-sm md:text-base">Yang membedakan kami dari yang lain</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {CIRI_KHAS_ALBANNA.map((item, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-[#F9D302] to-[#e6c102] rounded-2xl p-6 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
+              >
+                <div className="text-5xl mb-4">{item.icon}</div>
+                <h4 className="text-xl font-bold text-[#066836] mb-3">{item.title}</h4>
+                <p className="text-[#066836]/80 text-sm leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Content Grid: List + Photos */}
