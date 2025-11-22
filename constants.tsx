@@ -7,6 +7,7 @@ export const MOTTO = 'Pendidikan – Kepedulian – Keteladanan';
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '#tentang', label: 'Tentang' },
+  { href: '#kepemimpinan', label: 'Kepemimpinan' },
   { href: '#program', label: 'Program' },
   { href: '#fasilitas', label: 'Fasilitas' },
   { href: '#galeri', label: 'Galeri' },

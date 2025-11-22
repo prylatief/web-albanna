@@ -13,6 +13,8 @@ import BiayaDanPendaftaran from './components/BiayaDanPendaftaran';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import WhatsAppBubble from './components/WhatsAppBubble';
+import Leadership from './components/Leadership';
+import Teachers from './components/Teachers';
 
 /**
  * App Component
@@ -51,6 +53,12 @@ const App: React.FC = () => {
 
         {/* 5. Visi & Misi - Background kuning dengan pattern */}
         <VisiMisi />
+
+        {/* 5b. Dewan Pimpinan & Dewan Guru */}
+        <section id="kepemimpinan">
+          <Leadership />
+          <Teachers />
+        </section>
 
         {/* 6. Program Utama & Keunggulan */}
         <Programs />
