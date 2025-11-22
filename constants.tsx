@@ -83,6 +83,7 @@ export const EXTRACURRICULARS = [
 // LEADERSHIP
 export const LEADERSHIP = [
   { position: 'Penasehat', name: 'Hj. Isma\'iliyyah, S.S.' },
+  { position: 'Kepala Sekolah', name: 'Ustadzah Zahra Andira, S.M.' },
   { position: 'Pimpinan I', name: 'Ustadz Muhammad Faiki, Lc.' },
   { position: 'Pimpinan II', name: 'Ustadz Islam Al Faena, S.H.' },
   { position: 'Pembina I', name: 'Bpk. Purwanta, S.Pd., M.Pd.' },
