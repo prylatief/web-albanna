@@ -218,7 +218,26 @@ export const WHY_ALBANNA = [
   'Kelas bahasa Arab, Inggris, Indonesia',
   'Pengajar lulusan kampus negeri & luar negeri',
   'Lingkungan nyaman, asri, rutin tadabbur alam',
-  'Banyak program pengembangan karakter & penelitian ilmiah',
+  'Banyak program pengembangan karakter',
+];
+
+// CIRI KHAS & KELEBIHAN ALBANNA
+export const CIRI_KHAS_ALBANNA = [
+  {
+    title: 'Kajian Ilmiah Santri',
+    description: 'Program kajian ilmiah terstruktur untuk mengembangkan wawasan dan pemahaman santri secara mendalam',
+    icon: '📖'
+  },
+  {
+    title: 'Penelitian Ilmiah Santri',
+    description: 'Pembinaan riset dan karya ilmiah untuk mengasah kemampuan berpikir kritis dan analitis santri',
+    icon: '🔬'
+  },
+  {
+    title: 'Pelayanan Paripurna',
+    description: 'Sistem manajemen pelayanan paripurna pertama di Indonesia untuk kenyamanan santri dan wali santri',
+    icon: '⭐'
+  },
 ];
 
 // GALLERY IMAGES
