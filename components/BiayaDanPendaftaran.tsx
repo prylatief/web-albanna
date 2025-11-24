@@ -92,7 +92,7 @@ const BiayaDanPendaftaran: React.FC = () => {
                     </p>
                   </div>
                   <a
-                    href="https://drive.google.com/file/d/14JK6Y_t5PjCg2DZ5-f5gAp4PVEI_ACnD/view"
+                    href="https://docs.google.com/forms/d/1pSxZWRm-4csooXfqJdvq1QSpAd-1nDmKsVzDoO4n6Ug/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-3 bg-[#F9D302] hover:bg-[#e0c002] text-[#066836] font-extrabold px-8 py-4 rounded-xl text-lg shadow-2xl transition-all transform hover:scale-105"
@@ -100,10 +100,10 @@ const BiayaDanPendaftaran: React.FC = () => {
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    Download Formulir Sekarang
+                    Isi Formulir Sekarang
                   </a>
                   <p className="text-white/70 text-xs mt-4">
-                    File akan terbuka di Google Drive
+                    Formulir akan terbuka di Google Forms
                   </p>
                 </div>
               </div>
