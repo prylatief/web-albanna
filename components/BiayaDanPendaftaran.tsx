@@ -92,7 +92,7 @@ const BiayaDanPendaftaran: React.FC = () => {
                     </p>
                   </div>
                   <a
-                    href="https://docs.google.com/forms/d/1pSxZWRm-4csooXfqJdvq1QSpAd-1nDmKsVzDoO4n6Ug/viewform"
+                    href="https://forms.gle/Xa5DJA8cZDhZm8fN9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-3 bg-[#F9D302] hover:bg-[#e0c002] text-[#066836] font-extrabold px-8 py-4 rounded-xl text-lg shadow-2xl transition-all transform hover:scale-105"
